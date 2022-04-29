@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin,} from 'react-icons/fa'
 import {AiOutlineMail} from 'react-icons/ai'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import Logo from '../assets/logo.png'
+import Logo from '../assets/Portfolioweb.svg'
 import "./Navbar.css"
 import {Link} from 'react-scroll'
 
@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-50'>
         <div className='pl-8'>
-            <img src={Logo} alt="#" style={{width: '50px'}}   />
+            <img src={Logo} alt="#" style={{width: '120px'}}   />
         </div>
 
             {/* ------------------MENU----------------------  */}
